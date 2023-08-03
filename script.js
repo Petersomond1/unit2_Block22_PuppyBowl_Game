@@ -1,4 +1,4 @@
-let url = 'https://fsa-puppy-bowl.herokuapp.com/api/2302-acc-et-web-pt-e/players'
+const url = 'https://fsa-puppy-bowl.herokuapp.com/api/2302-acc-et-web-pt-e/players'
 async function fetchAllPlayers() {
     // try {
         let response = await fetch(url);
